@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  background-color: #333333;
+  color: #ffffff;
+}
+.navbar{
+  border-bottom: 3px solid #04689B;
+  background: #333333;
+  opacity: 0.7;
+}
+#home-section{
+  background-image: url('img/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-position: center;
+  background-attachment: fixed;
+}
+.dark-overlay{
+  background: rgba(0,0,0,0.7);
+  min-height: 700px;
+}
+#home-section .fa{
+  background: #ffffff;
+  color: #008ED6;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.card-form{
+  opacity: 0.8;
+}
+.home-inner{
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+#explore-main-section .fa{
+  background:#333333;
+  color: #ffffff;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#create-main-section .fa{
+  background: #ffffff;
+  color: #008ED6;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#share-main-section .fa{
+  background:#333333;
+  color: #ffffff;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
